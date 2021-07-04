@@ -1,0 +1,16 @@
+.Toolbar_button {
+    margin-left: 5px;
+    padding: 5px 12px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.Toolbar_button-selected {
+    color: #fff;
+    background-color: #555;
+}
+
+.Toolbar_button:hover {
+    color: #fff;
+    background-color: #888;
+}
