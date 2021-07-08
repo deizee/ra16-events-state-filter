@@ -1,5 +1,4 @@
 import './ProjectListItem.css';
-import Toolbar from "../../Toolbar/Toolbar";
 import PropTypes from "prop-types";
 
 const ProjectListItem = (props) => {

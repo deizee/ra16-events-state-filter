@@ -1,6 +1,5 @@
 import './ToolbarItem.css';
 import PropTypes from "prop-types";
-import Toolbar from "../Toolbar";
 
 const ToolbarItem = (props) => {
     let classSelected = 'Toolbar_button';
