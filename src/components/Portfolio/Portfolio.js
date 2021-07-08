@@ -66,6 +66,8 @@ export class Portfolio extends Component {
             filters: ["All", "Websites", "Flayers", "Business Cards"],
             selected: 'All'
         };
+
+        this.onSelectFilter = this.onSelectFilter.bind(this);
     }
 
     onSelectFilter(event) {
@@ -84,9 +86,9 @@ export class Portfolio extends Component {
                 <Toolbar
                     filters={this.state.filters}
                     selected={this.state.selected}
-                    onClick={this.onSelectFilter.bind(this)}
+                    onClick={this.onSelectFilter}
                 />
-                <ProjectList cards={this.state.filteredCards}/>
+                <ProjectList cards={this.state.filteredCards} />
             </div>
         )
     }
